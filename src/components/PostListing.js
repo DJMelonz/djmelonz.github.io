@@ -4,11 +4,9 @@ import { Link } from 'gatsby';
 
 import PostTime from './PostTime';
 
-import post from '../styles/post-listing.module.scss';
-
 const PostListing = ({ slug, title, posted, description, timeToRead }) => (
-  <article className={post.post}>
-    <Link to={slug} className={post.link}>
+  <article>
+    <Link to={slug} className='block py-4'>
       <h2>{title}</h2>
 
       <PostTime

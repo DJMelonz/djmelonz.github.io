@@ -4,6 +4,8 @@ import setupLogRocketReact from 'logrocket-react';
 import * as Sentry from "@sentry/react";
 import { Integrations } from "@sentry/tracing";
 
+import './src/styles/styles.css';
+
 const environment = process.env.NODE_ENV;
 const release = process.env.GATSBY_RELEASE_VERSION;
 

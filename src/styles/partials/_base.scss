@@ -1,4 +1,3 @@
-@import 'mixins/mixins';
 @import 'partials/colors';
 @import 'partials/variables';
 
@@ -198,7 +197,7 @@ td:last-child {
 }
 
 a {
-  @include links($c-dark, $c-light);
+  color: $c-light;
 }
 
 a:hover {

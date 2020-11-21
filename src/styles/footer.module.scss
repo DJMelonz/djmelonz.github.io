@@ -1,4 +1,3 @@
-@import 'mixins/mixins';
 @import 'partials/colors';
 
 .footer {
@@ -16,10 +15,6 @@
 .link {
   display: inline;
   margin: 20px 15px;
-
-  a {
-    @include links($c-dark, $c-light);
-  }
 }
 
 .noMargin {
